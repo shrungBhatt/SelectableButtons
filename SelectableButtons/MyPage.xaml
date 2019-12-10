@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SelectableButtons.MyPage" x:Name="Page" xmlns:selectableButtonView="clr-namespace:SelectableButtons" Title="{Binding PageTitle}">
+
+        <StackLayout x:Name="Stackk" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+            <selectableButtonView:SelectableButtons x:Name="SelectableButtonsView"/>
+
+        </StackLayout>
+
+</ContentPage>
